@@ -2,7 +2,7 @@
 A website that allows users to review restaurants they've eaten at, give ratings for the menu or specific food items, location, the price levels etc.
 
 These were the scripts to create the mysql server:
-
+________________________________________________________________________________
 show databases;
 create database project1CS348;
 use project1cs348;
@@ -40,7 +40,7 @@ CREATE TABLE Review (
     FOREIGN KEY (restaurantId) REFERENCES Restaurant(restaurantId)
 );
 
-
+________________________________________________________________________________
 TO CREATE THE INDEXES:
 
 Index 1:
@@ -48,7 +48,7 @@ create index zipcode_cusine_index  on restaurant(zipCode,cuisineType) using BTRE
 Index 2:
 create index review_username_index  on review(username) using BTREE;
 
-
+________________________________________________________________________________
 
 TO CREATE THE STORED PROCEDURES
 
