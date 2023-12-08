@@ -1,7 +1,7 @@
 # RestaurantReviewAPPfinal
 A website that allows users to review restaurants they've eaten at, give ratings for the menu or specific food items, location, the price levels etc.
 
-These were the scripts to create the mysql server:
+<header>These were the scripts to create the mysql server:</header>
 ________________________________________________________________________________
 show databases;
 create database project1CS348;
@@ -41,7 +41,7 @@ CREATE TABLE Review (
 );
 
 ________________________________________________________________________________
-TO CREATE THE INDEXES:
+<header>TO CREATE THE INDEXES:</header>
 
 Index 1:
 create index zipcode_cusine_index  on restaurant(zipCode,cuisineType) using BTREE;
@@ -50,7 +50,7 @@ create index review_username_index  on review(username) using BTREE;
 
 ________________________________________________________________________________
 
-TO CREATE THE STORED PROCEDURES
+<header>TO CREATE THE STORED PROCEDURES</header>
 
 Stored Procedure 1:
 
