@@ -3,7 +3,7 @@ A website that allows users to review restaurants they've eaten at, give ratings
 
 
 ________________________________________________________________________________
-<header>These were the scripts to create the mysql server:</header>
+<header>These were the scripts to create the mysql server</header>
 
 show databases;
 create database project1CS348;
